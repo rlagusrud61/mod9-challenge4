@@ -178,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632905830855</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Comitted the classes necessary to do the history tab. Of course, the values need to be changed later on according to this project">
+      <created>1632907321450</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1632907321451</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,11 +207,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="Comitted the classes necessary to do the history tab. Of course, the values need to be changed later on according to this project" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="325" y="187" key="Vcs.Push.Dialog.v2" timestamp="1632905836751">
+    <state x="325" y="187" key="Vcs.Push.Dialog.v2" timestamp="1632907332238">
       <screen x="0" y="0" width="1389" height="900" />
     </state>
     <state x="324" y="187" key="Vcs.Push.Dialog.v2/0.0.1386.900@0.0.1386.900" timestamp="1632900622449" />
     <state x="325" y="187" key="Vcs.Push.Dialog.v2/0.0.1387.900@0.0.1387.900" timestamp="1632904045346" />
-    <state x="325" y="187" key="Vcs.Push.Dialog.v2/0.0.1389.900@0.0.1389.900" timestamp="1632905836751" />
+    <state x="325" y="187" key="Vcs.Push.Dialog.v2/0.0.1389.900@0.0.1389.900" timestamp="1632907332238" />
   </component>
 </project>
