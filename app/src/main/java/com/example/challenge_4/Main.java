@@ -17,6 +17,4 @@ public class Main extends FragmentActivity  {
         // Get the bluetooth devices that are connected
     }
 
-
-
 }
