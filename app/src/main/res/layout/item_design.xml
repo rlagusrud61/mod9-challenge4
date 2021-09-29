@@ -25,7 +25,7 @@
                 android:layout_height="60dp"
                 android:scaleType="centerCrop"
                 android:id="@+id/imageview1"
-                android:src="@drawable/biking">
+                android:src="@drawable/bottle">
             </ImageView>
 
         </androidx.cardview.widget.CardView>
@@ -38,7 +38,7 @@
             android:layout_marginTop="20dp"
             android:layout_toRightOf="@+id/imageview"
             android:fontFamily="@font/quicksand"
-            android:text="Runninng"
+            android:text="Event"
             android:textColor="#141414"
             android:textSize="26sp"
             android:textStyle="bold" />
