@@ -17,7 +17,9 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class Main extends FragmentActivity  {
@@ -101,6 +103,11 @@ public class Main extends FragmentActivity  {
     private void initData() {
         Log.d(TAG,"initData");
         activityList = new ArrayList<>();
+        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+        Date date = new Date();
+
+        String current_time = formatter.format(date);
+        activityList.add(new Model(R.drawable.bottle, "bottle",current_time , "_______________________________________"));
     }
 
     // Needed for the history Tab

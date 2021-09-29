@@ -18,10 +18,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfaf098a-ba67-4682-bc60-4bd4413edff7" name="Default Changelist" comment="Front-end changes">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/challenge_4/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/challenge_4/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+    <list default="true" id="dfaf098a-ba67-4682-bc60-4bd4413edff7" name="Default Changelist" comment="Comitted the classes necessary to do the history tab. Of course, the values need to be changed later on according to this project">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_15_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/challenge_4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/challenge_4/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632903562254</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Comitted the classes necessary to do the history tab. Of course, the values need to be changed later on according to this project">
+      <created>1632904040517</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1632904040517</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,13 +191,15 @@
     <MESSAGE value="Empty project" />
     <MESSAGE value="Inital icon added" />
     <MESSAGE value="Front-end changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Front-end changes" />
+    <MESSAGE value="Comitted the classes necessary to do the history tab. Of course, the values need to be changed later on according to this project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comitted the classes necessary to do the history tab. Of course, the values need to be changed later on according to this project" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="325" y="187" key="Vcs.Push.Dialog.v2" timestamp="1632903570559">
-      <screen x="0" y="0" width="1389" height="900" />
+    <state x="325" y="187" key="Vcs.Push.Dialog.v2" timestamp="1632904045346">
+      <screen x="0" y="0" width="1387" height="900" />
     </state>
     <state x="324" y="187" key="Vcs.Push.Dialog.v2/0.0.1386.900@0.0.1386.900" timestamp="1632900622449" />
+    <state x="325" y="187" key="Vcs.Push.Dialog.v2/0.0.1387.900@0.0.1387.900" timestamp="1632904045346" />
     <state x="325" y="187" key="Vcs.Push.Dialog.v2/0.0.1389.900@0.0.1389.900" timestamp="1632903570559" />
   </component>
 </project>
