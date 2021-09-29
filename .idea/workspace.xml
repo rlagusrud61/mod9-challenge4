@@ -19,6 +19,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfaf098a-ba67-4682-bc60-4bd4413edff7" name="Default Changelist" comment="Front end changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/challenge_4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/challenge_4/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
@@ -193,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632907791076</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Front end changes">
+      <created>1632908242577</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1632908242577</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,11 +224,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="Front end changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="325" y="187" key="Vcs.Push.Dialog.v2" timestamp="1632907796710">
+    <state x="325" y="187" key="Vcs.Push.Dialog.v2" timestamp="1632908250745">
       <screen x="0" y="0" width="1389" height="900" />
     </state>
     <state x="324" y="187" key="Vcs.Push.Dialog.v2/0.0.1386.900@0.0.1386.900" timestamp="1632900622449" />
     <state x="325" y="187" key="Vcs.Push.Dialog.v2/0.0.1387.900@0.0.1387.900" timestamp="1632904045346" />
-    <state x="325" y="187" key="Vcs.Push.Dialog.v2/0.0.1389.900@0.0.1389.900" timestamp="1632907796710" />
+    <state x="325" y="187" key="Vcs.Push.Dialog.v2/0.0.1389.900@0.0.1389.900" timestamp="1632908250745" />
   </component>
 </project>

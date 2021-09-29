@@ -12,7 +12,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.FragmentActivity;
@@ -30,7 +32,9 @@ public class Main extends FragmentActivity implements View.OnClickListener  {
 
     // Front end components
     ImageButton bottle;
+    ImageView Baby_Picture;
     RelativeLayout Baby_Profile;
+    TextView Baby_Name, Baby_Age, Baby_Weight;
 
     // Recycler View Initialisation
     RecyclerView recyclerView;
@@ -50,6 +54,10 @@ public class Main extends FragmentActivity implements View.OnClickListener  {
 
         // Front-end initializers
         Baby_Profile = findViewById(R.id.Baby_Profile);
+        Baby_Name = findViewById(R.id.Baby_Name);
+        Baby_Age = findViewById(R.id.Baby_Age);
+        Baby_Weight = findViewById(R.id.Baby_Weight);
+        Baby_Picture = findViewById(R.id.Baby_Picture);
 
         // Front-end click listeners
         Baby_Profile.setOnClickListener(this);
