@@ -12,6 +12,7 @@
     // Baby profile
         <RelativeLayout
             android:layout_width="match_parent"
+            android:id= "@+id/Baby_Profile"
             android:layout_height="95dp"
             android:layout_marginTop="16dp"
             android:layout_marginLeft="10dp"

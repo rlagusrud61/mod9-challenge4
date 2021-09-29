@@ -10,7 +10,9 @@ import android.content.IntentFilter;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.ImageButton;
+import android.widget.RelativeLayout;
 
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.FragmentActivity;
@@ -22,12 +24,13 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class Main extends FragmentActivity  {
+public class Main extends FragmentActivity implements View.OnClickListener  {
 
     private static final String TAG = "Main";
 
     // Front end components
     ImageButton bottle;
+    RelativeLayout Baby_Profile;
 
     // Recycler View Initialisation
     RecyclerView recyclerView;
@@ -45,6 +48,12 @@ public class Main extends FragmentActivity  {
     public final void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        // Front-end initializers
+        Baby_Profile = findViewById(R.id.Baby_Profile);
+
+        // Front-end click listeners
+        Baby_Profile.setOnClickListener(this);
+
         // Call the class/method that initializes the app and asks for permissions
         checkBluetoothPermissions();
 
@@ -53,6 +62,22 @@ public class Main extends FragmentActivity  {
         initRecyclerView();
 
     }
+
+    @Override
+    public void onClick(View view) {
+
+        // When profile area gets clicked, moved into the settings layout
+        if (view.equals(Baby_Profile)){
+
+        }
+
+
+    }
+
+
+
+
+
 
     private void checkBluetoothPermissions() {
 
