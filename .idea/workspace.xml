@@ -18,14 +18,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfaf098a-ba67-4682-bc60-4bd4413edff7" name="Default Changelist" comment="Inital icon added">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baby_icon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/challenge_4.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/challenge_4.app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/challenge_4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/challenge_4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_design.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_design.xml" afterDir="false" />
+    <list default="true" id="dfaf098a-ba67-4682-bc60-4bd4413edff7" name="Default Changelist" comment="Front-end changes">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/challenge_4/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/challenge_4/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +57,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/example/challenge_4" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/challenge_4" />
       <recent name="$PROJECT_DIR$/app/src/main/res" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -162,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632900620055</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Front-end changes">
+      <created>1632903562253</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1632903562254</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,12 +183,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Empty project" />
     <MESSAGE value="Inital icon added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inital icon added" />
+    <MESSAGE value="Front-end changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Front-end changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="324" y="187" key="Vcs.Push.Dialog.v2" timestamp="1632900622449">
-      <screen x="0" y="0" width="1386" height="900" />
+    <state x="325" y="187" key="Vcs.Push.Dialog.v2" timestamp="1632903570559">
+      <screen x="0" y="0" width="1389" height="900" />
     </state>
     <state x="324" y="187" key="Vcs.Push.Dialog.v2/0.0.1386.900@0.0.1386.900" timestamp="1632900622449" />
+    <state x="325" y="187" key="Vcs.Push.Dialog.v2/0.0.1389.900@0.0.1389.900" timestamp="1632903570559" />
   </component>
 </project>

@@ -9,12 +9,16 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ImageButton;
 
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.FragmentActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main extends FragmentActivity  {
 
@@ -22,6 +26,12 @@ public class Main extends FragmentActivity  {
 
     // Front end components
     ImageButton bottle;
+
+    // Recycler View Initialisation
+    RecyclerView recyclerView;
+    LinearLayoutManager linearLayoutManager;
+    List<Model> activityList;
+    Adapter adapter;
 
     // For bluetooth devices recognition
     private BroadcastReceiver broadcastReceiver;
@@ -36,8 +46,11 @@ public class Main extends FragmentActivity  {
         // Call the class/method that initializes the app and asks for permissions
         checkBluetoothPermissions();
 
-    }
+        // History Tab
+        initData();
+        initRecyclerView();
 
+    }
 
     private void checkBluetoothPermissions() {
 
@@ -80,6 +93,26 @@ public class Main extends FragmentActivity  {
         };
         IntentFilter intentFilter = new IntentFilter(BluetoothDevice.ACTION_FOUND);
         registerReceiver(broadcastReceiver, intentFilter);
+    }
+
+
+
+    // Needed for the history Tab
+    private void initData() {
+        Log.d(TAG,"initData");
+        activityList = new ArrayList<>();
+    }
+
+    // Needed for the history Tab
+    private void initRecyclerView() {
+        Log.d(TAG,"initRecyclerView");
+        recyclerView = findViewById(R.id.recyclerView);
+        linearLayoutManager = new LinearLayoutManager(this);
+        linearLayoutManager.setOrientation(RecyclerView.VERTICAL);
+        recyclerView.setLayoutManager(linearLayoutManager);
+        adapter = new Adapter(activityList);
+        recyclerView.setAdapter(adapter);
+        adapter.notifyDataSetChanged();
     }
 
 }
